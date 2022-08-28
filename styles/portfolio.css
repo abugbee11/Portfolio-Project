@@ -3,13 +3,22 @@
   --secondary-color: #ffffff;
   --third-color: #e1f4f3;
   --fourth-color: #706c61;
+  --default-font-family: "Dosis", sans-serif;
+  --heading-font-family: "Ubuntu", sans-serif;
 }
 
 body {
   background: var(--secondary-color);
-  font-family: "Dosis", sans-serif;
+  font-family: var(--default-font-family);
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
 .hero {
   text-align: center;
   padding: 180px 0;
