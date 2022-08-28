@@ -1,4 +1,40 @@
+:root {
+  --primary-color: #333333;
+  --secondary-color: #ffffff;
+  --third-color: #e1f4f3;
+  --fourth-color: #706c61;
+}
+
 body {
-  background: red;
+  background: var(--secondary-color);
   font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 80px;
+}
+h2 {
+  font-weight: 500;
+  font-style: italic;
+}
+header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 180px 50px;
+  background-color: var(--fourth-color);
+  color: var(--secondary-color);
+}
+
+.construction-announcement {
+  background-color: var(--third-color);
+  border-color: var(--primary-color);
+  border: 3px;
+  border-radius: 4px;
+  border-style: double;
+}
+
+.fa-helmet-safety {
+  font-size: 100px;
 }
