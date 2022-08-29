@@ -10,6 +10,7 @@
 body {
   background: var(--secondary-color);
   font-family: var(--default-font-family);
+  max-width: 100%;
 }
 h1,
 h2,
@@ -19,7 +20,18 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
 }
+.container {
+  margin: 100 auto;
+  width: 100%;
+}
+
+.construction-hat {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+}
 .hero {
+  display: block;
   text-align: center;
   padding: 180px 0;
   background-color: var(--fourth-color);
@@ -36,7 +48,14 @@ h6 {
   font-style: italic;
 }
 
-.construction-announcement {
+.home-description {
+  display: flex;
+  justify-content: center;
+}
+
+.alert-construction {
+  display: flex;
+  justify-content: center;
   background-color: var(--third-color);
   border-color: var(--primary-color);
   border-radius: 4px;
@@ -45,4 +64,9 @@ h6 {
 
 .fa-helmet-safety {
   font-size: 100px;
+}
+.weather-app-photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
