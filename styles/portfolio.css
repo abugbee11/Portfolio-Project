@@ -12,8 +12,8 @@ body {
   background: var(--secondary-color);
   font-family: var(--default-font-family);
   max-width: 100%;
-  margin: 5px;
 }
+
 h1,
 h2,
 h3,
@@ -21,6 +21,10 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
+}
+
+.arrow {
+  font-size: 200px;
 }
 .container {
   margin: 100 auto;
@@ -40,6 +44,14 @@ h6 {
   color: var(--secondary-color);
 }
 
+.subhero {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+  background-color: var(--fourth-color);
+  color: var(--secondary-color);
+}
+
 .hero h1 {
   font-weight: 700;
   font-size: 80px;
@@ -50,6 +62,10 @@ h6 {
   font-style: italic;
 }
 
+.subhero h1 {
+  font-weight: 600;
+  font-size: 60px;
+}
 .description-block {
   padding: 20px;
 }
