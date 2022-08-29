@@ -48,11 +48,9 @@ h6 {
   font-style: italic;
 }
 
-.home-description {
-  display: flex;
-  justify-content: center;
+.description-block {
+  padding: 20px;
 }
-
 .alert-construction {
   display: flex;
   justify-content: center;
@@ -69,4 +67,15 @@ h6 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+@media (max-width: 900px) {
+  .hero {
+    padding: 90px 0;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
 }
