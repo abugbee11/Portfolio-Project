@@ -30,7 +30,6 @@ h6 {
   margin: 100 auto;
   width: 100%;
 }
-
 .construction-hat {
   display: flex;
   margin-top: 35px;
@@ -69,6 +68,9 @@ h6 {
 .description-block {
   padding: 20px;
 }
+.contact-page {
+  text-align: right;
+}
 .alert-construction {
   display: flex;
   justify-content: center;
@@ -81,9 +83,21 @@ h6 {
 .fa-helmet-safety {
   font-size: 100px;
 }
+
+.icons {
+  font-size: 100px;
+}
 .mainpage-link {
   border-radius: 4px;
   padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+.contact-link {
+  border-radius: 4px;
+  padding: 20px 180px;
   text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -93,6 +107,10 @@ h6 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+
+.social-media {
+  text-align: right;
 }
 @media (max-width: 900px) {
   .hero {
