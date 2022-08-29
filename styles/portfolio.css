@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #333333;
+  --primary-color: #212529;
   --secondary-color: #ffffff;
   --third-color: #e1f4f3;
   --fourth-color: #706c61;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --default-font-family: "Dosis", sans-serif;
   --heading-font-family: "Ubuntu", sans-serif;
 }
@@ -11,6 +12,7 @@ body {
   background: var(--secondary-color);
   font-family: var(--default-font-family);
   max-width: 100%;
+  margin: 5px;
 }
 h1,
 h2,
@@ -62,6 +64,14 @@ h6 {
 
 .fa-helmet-safety {
   font-size: 100px;
+}
+.mainpage-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
 }
 .weather-app-photo {
   display: flex;
