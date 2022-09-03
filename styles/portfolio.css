@@ -30,6 +30,17 @@ button:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
+.btn-primary {
+  border-color: var(--primary-color);
+  background-color: var(--third-color);
+  color: var(--primary-color);
+  margin: 0 5px;
+}
+.btn-primary:hover {
+  border-color: var(--third-color);
+  background-color: var(--primary-color);
+  color: var(--third-color);
+}
 .container {
   margin: 100 auto;
   width: 100%;
@@ -106,6 +117,12 @@ button:hover {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
+}
+.footer-link {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: var(--third-color);
 }
 .weather-app-photo {
   display: flex;
