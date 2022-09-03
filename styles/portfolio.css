@@ -26,6 +26,10 @@ h6 {
 .arrow {
   font-size: 200px;
 }
+button:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
 .container {
   margin: 100 auto;
   width: 100%;
@@ -97,7 +101,7 @@ h6 {
 }
 .contact-link {
   border-radius: 4px;
-  padding: 20px 100px;
+  padding: 20px 80px;
   text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
