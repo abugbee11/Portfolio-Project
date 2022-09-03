@@ -97,7 +97,7 @@ h6 {
 }
 .contact-link {
   border-radius: 4px;
-  padding: 20px 180px;
+  padding: 20px 100px;
   text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
