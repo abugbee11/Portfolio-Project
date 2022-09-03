@@ -112,6 +112,11 @@ h6 {
 .social-media {
   text-align: right;
 }
+
+.work {
+  font-weight: 500;
+  text-decoration: underline;
+}
 @media (max-width: 900px) {
   .hero {
     padding: 90px 0;
